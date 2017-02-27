@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random_Quote_Machine</title>
+	<style>
+		body{
+			background: #FFBF00;
+		}
+		.container{
+			margin:10% 0 0 25%;
+			padding:0 auto;
+		}
+		.a{
+			background: #F5A9F2;
+		}
+		.b{
+			background:#F2F5A9;
+		}
+		.c{
+			background:#F79F81;
+		}
+		.d{
+			background:#FFBF00;
+		}
+		.e{
+			background:#FA5858;
+		}
+		.f{
+			background: #00FF80;
+		}
+		.g{
+			background:#BDBDBD;
+		}
+		.h{
+			background:#01DFD7;
+		}
+		.i{
+			background:#5882FA;
+		}
+		.j{
+			background:#58FAF4;
+		}
+		.k{
+			background:#F6D8CE;
+		}
+		
+		.l{
+			background:#A9F5E1;
+		}
+		.m{
+			background:#D0F5A9;
+		}
+		.n{
+			background:#F3E2A9;
+		}
+		.o{
+			background:#F5D0A9;
+		}
+		.p{
+			background:#D8CEF6;
+		}
+		.q{
+			background:#F6CEEC;
+		}
+		.r{
+			background:#F6D8CE ;
+		}
+		.s{
+			background: #819FF7;
+		}
+		.t{
+			background:#D8F781;
+		}
+	</style>
+</head>
+<body>
+<div class='container'>
+		<blockquote id='sh'>
+		<header>
+			<h1>Its a journey and thou decides who comes into our lives</h1>
+		</header>
+
+		<footer>-manojkiran</footer>
+	</blockquote>
+
+		<button onclick='quote()'>Next Quote</button>
+</div>
+
+
+	<script>
+	var count = 0;
+	
+	function quote(){
+		count++;
+		console.log(count);
+		switch(count){
+			case 1: var sto = document.getElementById("sh");
+						sto.innerHTML = "<h1>Love is in air </h1><br><footer>-kelly james</footer>";
+					document.querySelector("body").setAttribute("class","a");
+						
+						break;
+
+			case 2: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>If you are going through hell, keep going.</h1><br><footer>-Winston Churchill</footer>";
+					document.querySelector("body").setAttribute("class","b");
+					break;
+
+			case 3 : var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Never interrupt your enemy when he is making a mistake.</h1><br><footer>-Napolean</footer>";
+					document.querySelector("body").setAttribute("class","c");
+					break;
+
+			case 4: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>To die will be an awfully big adventure.</h1><br><footer>-Pan</footer>";
+					document.querySelector("body").setAttribute("class","t");
+					break;
+
+			case 5: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>My mother thanks you. My father thanks you. My sister thanks you. And I thank you.</h1><br><footer>-Yankee dandy</footer>";
+					document.querySelector("body").setAttribute("class","d");
+					break;
+
+			case 6: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>A friendship founded on business is better than a business founded on friendship</h1><br><footer>-John</footer>";
+					document.querySelector("body").setAttribute("class","e");
+					break;
+
+			case 7: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>If you can't get rid of the skeleton in your closet, you'd best teach it to dance.</h1><br><footer>-George</footer>";
+					document.querySelector("body").setAttribute("class","f");
+					break;
+
+			case 8: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Don't cry because it's over, smile because it happened</h1><br><footer>-Strauss</footer>";
+					document.querySelector("body").setAttribute("class","g");
+					break;
+
+			case 9: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Be yourself; everyone else is already taken</h1><br><footer>-Oscar wilde</footer>";
+					document.querySelector("body").setAttribute("class","h");
+					break;
+
+			case 10: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Two things are infinite: the universe and human stupidity; and I'm not sure about the universe</h1><br><footer>-Einstein</footer>";
+					document.querySelector("body").setAttribute("class","i");
+					break;
+
+			case 11: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Two things are infinite: the universe and human stupidity; and I'm not sure about the universe</h1><br><footer>-Bernard</footer>";
+					document.querySelector("body").setAttribute("class","j");
+					break;
+
+			case 12: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>A room without books is like a body without a soul.</h1><br><footer>-Marcus</footer>";
+					document.querySelector("body").setAttribute("class","k");
+					break;
+
+			case 13: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>You only live once, but if you do it right, once is enough</h1><br><footer>-west</footer>";
+					document.querySelector("body").setAttribute("class","l");
+					break;
+
+			case 14: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Be the change that you wish to see in the world.</h1><br><footer>-Gandhi</footer>";
+					document.querySelector("body").setAttribute("class","m");
+					break;
+
+			case 15: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>If you tell the truth, you don't have to remember anything</h1><br><footer>-mark</footer>";
+					document.querySelector("body").setAttribute("class","n");
+					break;
+
+			case 16:var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>A friend is someone who knows all about you and still loves you</h1><br><footer>-Hubbard</footer>";
+					document.querySelector("body").setAttribute("class","o");
+					break;
+
+			case 17:var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Without music, life would be a mistake</h1><br><footer>-fred</footer>";
+					document.querySelector("body").setAttribute("class","p");
+					break;
+
+			case 18: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.</h1><br><footer>-Ralph</footer>";
+					document.querySelector("body").setAttribute("class","q");
+					break;
+
+			case 19: var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>Classic′ - a book which people praise and don't read</h1><br><footer>-anonymous</footer>";
+					document.querySelector("body").setAttribute("class","r");
+					break;
+
+			case 20:var sto = document.getElementById("sh");
+					sto.innerHTML = "<h1>The question isn't who is going to let me; it's who is going to stop me</h1><br><footer>-Asn</footer>";
+					document.querySelector("body").setAttribute("class","s");
+					break;
+
+			case 21: count = 1 ;
+					break;
+
+		}
+
+	}
+	
+	</script>
+</body>
+</html>
